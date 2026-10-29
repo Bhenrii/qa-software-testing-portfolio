@@ -1,0 +1,69 @@
+CT06 — Validação de Notificações por E-mail
+
+Status: Aprovado
+Tipo de teste: Teste funcional e validação de interface
+Módulos: Aéreo, Hotel e Remarcação
+
+1. Objetivo
+
+Validar o comportamento das notificações por e-mail nos fluxos de Reserva e Emissão, verificando se as informações são apresentadas e direcionadas corretamente tanto na interface do sistema quanto nas mensagens enviadas aos destinatários de teste.
+
+2. Pré-condições
+
+* Possuir acesso ao ambiente de testes.
+* Ter pedidos de teste disponíveis nos fluxos de aéreo, hotel e remarcação.
+* Utilizar destinatários de teste para validar o envio das mensagens.
+
+3. Cenários de teste
+
+CT06.01 — Validação das notificações de Reserva
+
+Procedimento:
+
+1. Acessar um pedido de teste.
+2. Acionar a funcionalidade de reenvio da notificação de Reserva.
+3. Verificar as informações apresentadas na interface.
+4. Conferir o conteúdo da mensagem recebida no e-mail de teste.
+5. Validar se as informações correspondem ao pedido utilizado.
+
+Resultado esperado: A notificação deve apresentar as informações corretas do pedido, tanto na interface quanto no e-mail.
+
+CT06.02 — Validação das notificações de Emissão
+
+Procedimento:
+
+1. Acessar um pedido de teste com emissão realizada.
+2. Acionar a funcionalidade de reenvio da notificação de Emissão.
+3. Verificar as informações apresentadas na interface.
+4. Conferir o conteúdo da mensagem recebida no e-mail de teste.
+5. Validar se as informações correspondem ao pedido utilizado.
+
+Resultado esperado: A notificação de Emissão deve apresentar as informações correspondentes ao pedido, sem divergências entre a interface e o e-mail.
+
+CT06.03 — Validação da apresentação visual
+
+Procedimento:
+
+1. Acessar a visualização da notificação.
+2. Verificar a largura e a organização do conteúdo.
+3. Conferir a apresentação das tabelas.
+4. Verificar o separador do rodapé.
+5. Validar a apresentação dos botões relacionados às lojas, quando disponíveis.
+6. Conferir a formatação geral da mensagem.
+
+Resultado esperado: O conteúdo deve ser apresentado de forma organizada, com tabelas, rodapé e botões exibidos conforme esperado.
+
+4. Resultado obtido
+
+Os testes realizados nos fluxos de aéreo, hotel e remarcação apresentaram o direcionamento correto das informações de Reserva e Emissão na interface e nas mensagens de e-mail.
+
+A apresentação visual foi verificada conforme os critérios definidos para o teste.
+
+Resultado: Aprovado para os cenários executados.
+
+5. Evidências
+
+* Capturas de tela da visualização das notificações.
+* Evidências do reenvio das mensagens de Reserva e Emissão.
+* Exemplos das mensagens recebidas nos destinatários de teste.
+* Capturas da apresentação visual do conteúdo.
